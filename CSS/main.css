@@ -90,7 +90,11 @@ section {
   max-width: 1170px;
   margin: auto;
 }
-
+@media (max-width:1200px){
+  .container {
+  padding-inline:20px
+  }
+}
 /* make images easier to work with */
 img,
 picutre {
